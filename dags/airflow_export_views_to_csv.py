@@ -61,6 +61,8 @@ def create_dag():
             writer = csv.writer(fd)
             writer.writerows(result)
 
+    exported_tasks = export_task_metrics()
+
 
 created_dag = create_dag()
 
