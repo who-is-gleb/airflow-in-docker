@@ -102,7 +102,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -127,3 +126,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.idea
+airflow/logs
+*.pyc
+logs/
+clickhousedb_data/
+clickhousedb_logs/
+grafana-storage/
+tests/dags/.pytest_cache
